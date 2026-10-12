@@ -3,8 +3,7 @@
 
 ## 1. QA, QC, Testing:
 
-* QA - focuses on the process: we work to prevent bugs from occurring. The entire
-team is responsible.
+* QA - focuses on the process: we work to prevent bugs from occurring. The entire team is responsible.
 * QC - focuses on the product: we inspect the finished product and identify issues.
 * Testing - the primary method of QC.
 

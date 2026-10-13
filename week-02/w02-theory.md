@@ -68,3 +68,29 @@ The 3-value approach is more rigorous and helps identify defects that the 2-valu
 | Invalid | non-integer | 2.5 | 
 
 ---
+
+## 4. Decision Table
+
+A decision table lists all combinations for test cases. Equivalence classes and boundary values work well when there is only one condition. In contrast, a decision table is appropriate when there is more than one condition.
+
+Example:   
+Conditions: Went into the store (Y/N), vegetables are available (Y/N), price is greater than or equal to 50 (Y/N).  
+If I went into the store, the vegetables cost less than 50, and they are in stock - I make the purchase. If I didn’t go in, or the vegetables cost 50 or more, or they are out of stock - I don’t buy the vegetables and go to another store.
+
+---
+
+| Cond. | R1 | R2 | R3 | R4 |
+| --- | --- | --- | --- | --- |
+| Entered the store	| Y | Y | Y	| N |
+| Vegetables available | Y | Y | N | - |
+| Price ≥ 50 | N | Y | - | - |
+| Bought | yes | no	| no | no |
+| Went to another store | no | yes | yes | yes |
+
+---
+
+## 5. Other metodics
+
+* State transition. Used when an object has different states, and actions transition it from one state to another. Example: an order in an online store: New - Paid – Shipped – Delivered. We verify that valid transitions work, while invalid ones (such as shipping an unpaid order) are prohibited.  
+* Error guessing. Experience-based. For example: “Forms like this usually break when a field is left blank, contains spaces, has very long text, or includes special characters.”  
+* Exploratory testing. This involves simultaneously exploring the product, devising tests, and executing them, usually within a time limit (e.g., 30 minutes). It’s useful when there’s no documentation.

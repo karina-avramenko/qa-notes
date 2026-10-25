@@ -15,7 +15,7 @@ notes and manual testing practice that come before the automation work.
 |------|-------------|--------|
 | [week-01/w01-theory.md](week-01/w01-theory.md) | Testing fundamentals: QA/QC, error-defect-failure, principles, levels and types, test pyramid, CI/CD, Agile | Done |
 | [week-02/w02-theory.md](week-02/w02-theory.md) | Test design notes: EP, BVA, BVA Approaches | Done |
-| test-cases/ | Test cases for a real website | Done |
+| [week-02/w02-test-cases.md](week-02/w02-test-cases.md) | Test cases for a real website | Done |
 | bug-reports/ | Bug reports in Markdown | Planned |
 
 ## Related repositories
